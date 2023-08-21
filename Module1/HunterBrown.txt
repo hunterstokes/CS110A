@@ -1,0 +1,26 @@
+How to Make a Ham and Cheese Sandwich
+
+Problem: How to make a ham and cheese sandwich
+    1. Get Utensils
+    2. Get Ingredients
+    3. Put ingredients together
+    4. Eat Sandwich
+
+Problem V2: How to make a ham and cheese sandwich
+    1. Get Utensils
+      1.1. Get a knife
+      1.2. Get a plate
+    2. Get Ingredients
+        2.1. Get bread
+        2.2. Get ham
+        2.3. Get cheese
+    3. Prepare Ingredients
+        3.1. Slice bread
+            3.1.1. Toast bread
+        3.2. Slice cheese
+        3.3. Slice ham
+    4. Put ingredients together
+        4.1. Put ham on bread
+        4.2. Put cheese on ham
+        4.3. Put bread on cheese
+    5. Eat Sandwich
