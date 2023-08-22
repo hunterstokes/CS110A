@@ -1,0 +1,56 @@
+* Purpose *
+    Designing an algorithm helps us to both communicate and interpret clear instructions for a predictable, reliable output. This is the crux of computational thinking.
+
+    Note: Once an Assignment is graded, resubmissions are not accepted.
+
+* Why Algorithms *
+    in the 21st Century, algorithms are being used everywhere.
+
+    Here is an article discussing how the implementation of algorithms in Python is Here to Beat Cancer. (Links to an external site.) https://fossbytes.com/monovar-python-program-cancer-detection-svn/
+
+    Read this article to see How Colleges Mine Data to Tailor Students' Experience. (Links to an external site.) https://www.chronicle.com/article/colleges-mine-data-to-tailor-students-experience/
+
+* Stepwise Refinement *
+    Stepwise refinement allows for top-down design. That means moving 
+    from general (abstract)
+    to specific (detailed)
+    When planning a solution to any algorithm, including computer programs, a variety of tools are available to help this process including flowcharts (covered later in our textbook). Processes in computer programs are linear and sequential but developing programs can be stepwise: with increasing levels of detail.
+
+    One tool we can use for creating an algorithm is a list with bulleted numbering.
+
+    The first example below is a sequential list of steps:
+    Problem: Go To School
+        1. Wash
+        2. Dress
+        3. Eat
+        4. Leave house
+
+    The next example is the same algorithm using additional levels of indentation. Notice how the bulleted numbering adds details:
+    Problem: Go To School
+        1. Wash
+        2. Dress
+        3. Eat
+            3.1 get dishes and utensils
+            3.2 pour cereal
+            3.3 pour milk
+            3.4 eat until full
+            3.5 put dishes away
+        4. Leave house 
+            4.1 put on jacket
+            4.2 lock door
+
+ 
+
+* Instructions/Design * 
+    Write algorithms to solve a problem of your choosing. 
+    To receive credit: you MUST write algorithms for one problem in two different ways as shown in example above.
+
+    Note: if you can't think of a problem you may solve one of the following:
+        - how to write a paper on Charles Babbage and Ada Lovelace
+        - make a cup of tea
+        - install an app on your phone
+        - make a ham and cheese sandwich
+        - wash the dog
+        - First algorithm with one level of bullet-numbering (just a sequential list of steps). Do not use more than 6 to 8 steps.
+
+    Second algorithm use bulleted numbering with at least one extra level of stepwise refinement for at least one of the major steps.
