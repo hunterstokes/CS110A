@@ -1,0 +1,80 @@
+Why Binary?
+    There is a bumper sticker out there that reads:
+
+    There are 10 kinds of people, those who understand binary and those who don't.
+
+    I hope you now understand why this is funny! Hint: the 10 is a binary number :)
+
+    Learning binary code allows us to know how computers function so we can understand them better. If you are a Computer Scientist you will benefit from learning how a computer works. For instance, learning binary code can help you diagnose computer problems. When you know the computer issue, you can think of the best solutions to fix it since you know what is going on inside the computer.
+
+    Interestingly, another use of binary code is BrailleLinks to an external site. which is used by the blind to read and write by touch, named for its creator, Louis Braille. This system consists of grids of six dots each, three per column, in which each dot has two states: raised or not raised. The different combinations of raised and flattened dots are capable of representing all letters, numbers, and punctuation signs.
+
+Instructions
+    Complete the following exercise sets showing the steps to your solution. I have given you the answer to the first exercise in each set to show you what is needed (include this in your submission).  For more explanations, see the M02: Videos & Additional Resources.
+
+ 
+
+1. Convert the following  binary numbers to decimal equivalents showing all steps:
+
+    A. 001100
+        Solution to A:  001100 =
+        0x2^5 + 0x2^4 + 1x2^3 + 1x2^2 +  0x2^1 + 0x2^0 = 8 + 4 = 12
+
+    B. 000011
+
+    C. 011100
+
+    D. 111100
+
+    E. 111111
+
+ 
+
+2. Convert the following decimal numbers to their binary equivalents showing all steps:
+
+    A. 64
+        Conceptual Solution to A: 64 Decimal to Binary:
+        The largest power of 2 that is less than or equal to 64 is 2^6=64. So we need 7 digits, with 1 at the far left, and since 64-2^6 equals 0, we have no remainder for other digits. So the rest of the digits are 0s:
+        64 = 1,000,000 base 2.
+        Algorithmic Solution to A: 64/2 = 32 with remainder 0, 32/2 = 16 with remainder 0, 16/2 = 8 with remainder 0, 8/2 = 4 with remainder 0, 4/2 = 2 with remainder 0, 2/2 = 1 with remainder 0, 1/2 = 0 with remainder 1. So 64 = 1000000 base 2.
+
+    B. 128   
+
+    C. 256
+
+    D. 100
+
+    E. 111
+
+3. Convert the following hexadecimal number to their decimal equivalents showing all steps:
+
+    A. C
+        Solution to A:
+        C = 12x16^0 = 12
+
+    B. 9F
+
+    C. B52
+
+    D. F117
+
+    E. ABCD
+
+4. Convert the following decimal numbers to their hexadecimal equivalents showing all steps:
+
+    A. 80
+
+        Conceptual Solution to A: 80 Decimal to Hexadecimal:
+
+        The largest power of 16 that is less than or equal to 80 is 161=16. Since 80/16 is 5 with no remainder, we have our answer. So we need 2 digits, with 5 at the left, and since we have no remainder, the other digit is 0:
+        80 decimal = 50 base 16.
+
+        Algorithmic Solution to A: 
+
+        80/16: Quotient=5, Remainder=0
+        5/16: Quotient=0, Remainder=5
+        80 decimal = 50 base 16.
+
+    B. 2560
+
+    C. 65536

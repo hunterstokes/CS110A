@@ -18,7 +18,10 @@
 2. Convert the following decimal numbers to binary equivalents showing all steps:
 
     A. 64 
-        Solution: 64/2 = 32, remainder 0
+        Conceptual Solution to A: 64 Decimal to Binary:
+        The largest power of 2 that is less than or equal to 64 is 2^6=64. So we need 7 digits, with 1 at the far left, and since 64-2^6 equals 0, we have no remainder for other digits. So the rest of the digits are 0s:
+        64 = 1,000,000 base 2.
+        Algorithmic Solution: 64/2 = 32, remainder 0
                   32/2 = 16, remainder 0
                   16/2 = 8, remainder 0
                   8/2 = 4, remainder 0
@@ -28,17 +31,21 @@
                   1,000,000 base 2
 
     B. 128
+        Conceptual Solution to B: 128 Decimal to Binary:
+        The largest power of 2 that is less than or equal to 64 is 2^7=128. So we need 8 digits, with 1 at the far left, and since 128-2^7 equals 0, we have no remainder for other digits. So the rest of the digits are 0s
         Solution: 128/2 = 64, remainder 0
-                  64/2 = 32, remainder 0
-                  32/2 = 16, remainder 0
-                  16/2 = 8, remainder 0
-                  8/2 = 4, remainder 0
-                  4/2 = 2, remainder 0
-                  2/2 = 1, remainder 0
-                  1/2 = 0, remainder 1
-                  10,000,000 base 2
+                64/2 = 32, remainder 0
+                32/2 = 16, remainder 0
+                16/2 = 8, remainder 0
+                8/2 = 4, remainder 0
+                4/2 = 2, remainder 0
+                2/2 = 1, remainder 0
+                1/2 = 0, remainder 1
+                10,000,000 base 2
 
     C. 256
+        Conceptual Solution to C: 256 Decimal to Binary:
+        The largest power of 2 that is less than or equal to 256 is 2^8=256. So we need 9 digits, with 1 at the far left, and since 256-2^8 equals 0, we have no remainder for other digits. So the rest of the digits are 0s
         Solution: 256/2 = 128, remainder 0
                   128/2 = 64, remainder 0
                   64/2 = 32, remainder 0
@@ -51,4 +58,64 @@
                   100,000,000 base 2
     
     D. 100
-        Solution: 
+        Conceptual Solution to D: 100 Decimal to Binary:
+        Solution: 100/2 = 50, remainder 0
+                    50/2 = 25, remainder 0
+                    25/2 = 12, remainder 1
+                    12/2 = 6, remainder 0
+                    6/2 = 3, remainder 0
+                    3/2 = 1, remainder 1
+                    1/2 = 0, remainder 1
+                    1,100,100 base 2
+    
+    E. 111
+        Conceptual Solution to E: 111 Decimal to Binary:
+        Solution: 111/2 = 55, remainder 1
+                    55/2 = 27, remainder 1
+                    27/2 = 13, remainder 1
+                    13/2 = 6, remainder 1
+                    6/2 = 3, remainder 0
+                    3/2 = 1, remainder 1
+                    1/2 = 0, remainder 1
+                    1,101,111 base 2
+
+3. Convert the following hexadecimal number to their decimal equivalents showing all steps:
+
+    A. C
+        Solution to A:
+        C = 12x16^0 = 12
+
+    B. 9F
+        Solution to B:
+        9F = (9x16^1) + (15x16^0) = 159
+
+    C. B52
+        Solution to C:
+        B52 = (11x16^2) + (5x16^1) + (2x16^0) = 2898
+
+    D. F117
+        Solution to D:
+        F117 = (15x16^3) + (1x16^2) + (1x16^1) + (7x16^0) = 61719
+
+    E. ABCD
+        Solution to E:
+        ABCD = (10x16^3) + (11x16^2) + (12x16^1) + (13x16^0) = 43981
+
+4. Convert the following decimal numbers to their hexadecimal equivalents showing all steps:
+
+A. 80
+
+Conceptual Solution to A: 80 Decimal to Hexadecimal:
+
+The largest power of 16 that is less than or equal to 80 is 161=16. Since 80/16 is 5 with no remainder, we have our answer. So we need 2 digits, with 5 at the left, and since we have no remainder, the other digit is 0:
+80 decimal = 50 base 16.
+
+Algorithmic Solution to A: 
+
+80/16: Quotient=5, Remainder=0
+5/16: Quotient=0, Remainder=5
+80 decimal = 50 base 16.
+
+B. 2560
+
+C. 65536
