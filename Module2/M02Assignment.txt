@@ -32,7 +32,7 @@
 
     B. 128
         Conceptual Solution to B: 128 Decimal to Binary:
-        The largest power of 2 that is less than or equal to 64 is 2^7=128. So we need 8 digits, with 1 at the far left, and since 128-2^7 equals 0, we have no remainder for other digits. So the rest of the digits are 0s
+            The largest power of 2 that is less than or equal to 64 is 2^7=128. So we need 8 digits, with 1 at the far left, and since 128-2^7 equals 0, we have no remainder for other digits. So the rest of the digits are 0s
         Solution: 128/2 = 64, remainder 0
                 64/2 = 32, remainder 0
                 32/2 = 16, remainder 0
@@ -45,8 +45,8 @@
 
     C. 256
         Conceptual Solution to C: 256 Decimal to Binary:
-        The largest power of 2 that is less than or equal to 256 is 2^8=256. So we need 9 digits, with 1 at the far left, and since 256-2^8 equals 0, we have no remainder for other digits. So the rest of the digits are 0s
-        Solution: 256/2 = 128, remainder 0
+            The largest power of 2 that is less than or equal to 256 is 2^8=256. So we need 9 digits, with 1 at the far left, and since 256-2^8 equals 0, we have no remainder for other digits. So the rest of the digits are 0s: 100,000,000 base 2.
+        Algorithmic Solution: 256/2 = 128, remainder 0
                   128/2 = 64, remainder 0
                   64/2 = 32, remainder 0
                   32/2 = 16, remainder 0
@@ -59,7 +59,8 @@
     
     D. 100
         Conceptual Solution to D: 100 Decimal to Binary:
-        Solution: 100/2 = 50, remainder 0
+            The largest power of 2 that is less than or equal to 100 is 2^6=64. We will need 7 digits, with 1 at the far left, with a remainder of 36 we need to solve for the other numbers. The largest power of 2 that goes into 36 is 2^5=32. So we need a 1 at the 5th digit from the left. We have a remainder of 4, and the largest power of 2 that goes into 4 is 2^2=4. So we need a 1 at the 2nd digit from the left. We have a remainder of 0, so the binary would be 1,100,100 base 2.
+        Algorithmic Solution: 100/2 = 50, remainder 0
                     50/2 = 25, remainder 0
                     25/2 = 12, remainder 1
                     12/2 = 6, remainder 0
@@ -70,7 +71,8 @@
     
     E. 111
         Conceptual Solution to E: 111 Decimal to Binary:
-        Solution: 111/2 = 55, remainder 1
+            The largest power of 2 that is less than or equal to 111 is 2^6=64. We will need 7 digits, with 1 at the far left, with a remainder of 47 we need to solve for the other numbers. The largest power of 2 that goes into 47 is 2^5=32. So we need a 1 at the 5th digit from the left. We have a remainder of 15, and the largest power of 2 that goes into 15 is 2^3=8. So we need a 1 at the 3rd digit from the left. We have a remainder of 7, and the largest power of 2 that goes into 7 is 2^2=4. So we need a 1 at the 2nd digit from the left. We have a remainder of 3, and the largest power of 2 that goes into 3 is 2^1=2. So we need a 1 at the 1st digit from the left. We have a remainder of 1, and the largest power of 2 that goes into 1 is 2^0=1. So we need a 1 at the 0th digit from the left. We have a remainder of 0, so the binary would be 1,101,111 base 2.
+        Algorithmic Solution: 111/2 = 55, remainder 1
                     55/2 = 27, remainder 1
                     27/2 = 13, remainder 1
                     13/2 = 6, remainder 1
@@ -103,19 +105,40 @@
 
 4. Convert the following decimal numbers to their hexadecimal equivalents showing all steps:
 
-A. 80
+    A. 80
 
-Conceptual Solution to A: 80 Decimal to Hexadecimal:
+        Conceptual Solution to A: 80 Decimal to Hexadecimal:
+            The largest power of 16 that is less than or equal to 80 is 16^1=16. Since 80/16 is 5 with no remainder, we have our answer. So we need 2 digits, with 5 at the left, and since we have no remainder, the other digit is 0:
+            80 decimal = 50 base 16.
 
-The largest power of 16 that is less than or equal to 80 is 161=16. Since 80/16 is 5 with no remainder, we have our answer. So we need 2 digits, with 5 at the left, and since we have no remainder, the other digit is 0:
-80 decimal = 50 base 16.
+        Algorithmic Solution to A: 
+            80/16: Quotient=5, Remainder=0
+            5/16: Quotient=0, Remainder=5
+            80 decimal = 50 base 16.
 
-Algorithmic Solution to A: 
+    B. 2560
 
-80/16: Quotient=5, Remainder=0
-5/16: Quotient=0, Remainder=5
-80 decimal = 50 base 16.
+        Conceptual Solution to B: 2560 Decimal to Hexadecimal:
+            The largest power of 16 that is less than or equal to 2560 is 16^2=256. Since 2560/256 is 10 with no remainder, we have our answer. So we need 3 digits, with 10 or "A" at the left, and since we have no remainder, the other digits are 0s:
+            2560 decimal = A00 base 16.
 
-B. 2560
+        Algorithmic Solution to B: 
+            2560/16: Quotient=160, Remainder=0
+            160/16: Quotient=10, Remainder=0
+            10/16: Quotient=0, Remainder=10
+            2560 decimal = A00 base 16.
 
-C. 65536
+
+    C. 65536
+
+        Conceptual Solution to C: 65536 Decimal to Hexadecimal:
+            The largest power of 16 that is less than or equal to 65536 is 16^4=65536. Since 65536/65536 is 1 with no remainder, we have our answer. So we need 5 digits, with 1 at the left, and since we have no remainder, the other digits are 0s:
+            65536 decimal = 10000 base 16.
+
+        Algorithmic Solution to C:
+            65536/16: Quotient=4096, Remainder=0
+            4096/16: Quotient=256, Remainder=0
+            256/16: Quotient=16, Remainder=0
+            16/16: Quotient=1, Remainder=0
+            1/16: Quotient=0, Remainder=1
+            65536 decimal = 10000 base 16.
