@@ -1,0 +1,26 @@
+Troubleshooting Case Study:
+
+Step 1 - The Problem: Bikes Tires are flat
+
+Step 2 - Hypotheses: 
+
+    2.1 - The tires have just gone flat over time (The bike has not been ridden in a couple years). 
+    2.2 - The tires have a hole in them.
+    2.3 - Pump is broken. 
+    2.4 - The place to inflate air has a leak.
+    2.5 - Change the wheels.
+
+Step 3 - Test: 
+    
+    3.1 - Pump up the tires and see if they stay inflated.
+        3.1 Outcome - the tires take about 24 hours, but they are flat, the tires do not hold their air. Symmetric test. Hypothesis is inconclusive, the tires could have had no air due to time, but this is not a guarentee.
+    3.2 - Check the tires for holes. Using soapy water, look for bubbles. If there are bubbles forming on the tire, there is a hole, causing the leak.
+        3.2 Outcome - there are no bubbles forming, there is no leak. Symmetric test. Invalidates Hypthesis 2.2, there is no hole in the tires.
+    3.3 - Use a different pump that we know works to see if the tires stay inflated.
+        3.3 Outcome - the tires take about 24 hours, but they are flat, there is a leak. Asymmetric test. Invalidates Hypothesis 2.3 the pump works.
+    3.4 - Check the place to inflate air for leaks. Using soapy water, look for bubbles. If there are bubbles forming on the place to inflate air, there is a leak.
+        3.4 Outcome - there are bubbles forming, there is a leak here. Symmetric test. Validates Hypothesis 2.3 there is a leak and it is coming from the place to inflate air.
+    3.5 - Change the wheels and see if the tires stay inflated.
+        3.5 Outcome - the tires stay inflated. Symmetric test. Validates Hypothesis 2.5 the wheels need to be changed for new air inputs, the tires no longer deflate.
+    
+
