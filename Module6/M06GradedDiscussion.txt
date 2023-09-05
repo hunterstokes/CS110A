@@ -1,0 +1,20 @@
+Instructions:
+    In this discussion forum you will explore freely accessible big datasets and consider what information you could learn from the data.
+    Step 1: Choose a Dataset
+        Find an online, freely available "big data" set that interests you. There are lots of datasets available. Below are some example websites/datasets, but there are many, many more out there. Download the dataset and review it. 
+
+    Step 2: Think of Questions
+        Think at least two questions that you could answer by analyzing your dataset.
+        Note: you are not actually analyzing or finding the answer! Just think of what questions could be answered.
+
+    Step 3: Make Your Post
+    In your post, include:
+        the name of your dataset
+        a link to the dataset
+        a brief (1-2 sentence) description of the dataset
+        the two questions
+    
+    Step 4: Respond to a Post
+        Respond to at least one other student's post. In your response post, think of an additional question that could be answered with their dataset.
+
+Example Datasets

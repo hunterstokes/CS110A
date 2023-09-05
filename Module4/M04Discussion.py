@@ -39,3 +39,22 @@ tax = 9.95
 total = sub_total + tax
 print('the total is', total, '\npay up!')
 
+# EXPECTED OUTPUT: the total is 109.95
+#                  pay up!
+
+# Code E:
+total = int(input('enter the total'))  # assume the user enters: ten
+print('your total is', total)
+
+# EXPECTED OUTPUT: your total is 10
+# This code does not run, the value of ten cannot be converted to an integer. To fix this we would need to change the value of total to a string, or change the value of ten to an integer and only allow numbers to be entered by the user.
+
+# Code F:
+
+start_value = 95
+end_value = 115
+difference = end_value - start_value
+print('the difference is', difference)
+
+# EXPECTED OUTPUT: the difference is 20
+

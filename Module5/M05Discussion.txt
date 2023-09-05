@@ -1,0 +1,24 @@
+Part A:
+    Question 1:
+        Write assignment statements that perform the following operations with the variables a, b, and c.
+        a. Adds 2 to a and stores the result in b
+            w
+    Question 2:
+        Assume the variables result, w, x, y, and z are all integers, and that w = 5,  x= 4,  y = 8, and z = 2. What value will be stored in result after each of the following statements execute?
+        a. result = x + y
+        b. result = z * 2
+        c. result = y / x
+        d. result = y – z
+        e. result = w // z
+
+Part B:
+    Question 1: 
+        Write a Python statement that assigns the sum of 10 and 14 to the variable total
+        var total = 10 + 14
+    Question 2
+        Write a Python statement that subtracts the variable down_payment from the variable total and assigns the result to the variable due
+    Question 3
+        Write a Python statement that  multiplies the variable subtotal by 0.15 and assigns the result to the variable total
+    Question 4
+        Assume the variable sales references a float value. Write a statement that displays the value rounded to two decimal points
+
