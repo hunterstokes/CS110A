@@ -1,0 +1,21 @@
+CS110A
+How the Internet Works - taught to a 4th grader 
+Purpose
+Teaching something you've learned can be a very effective way to solidify your understanding of it. The purpose of this assignment is to help you reinforce your understanding of how the internet works by pretending to teach it to someone else.
+
+Instructions
+Pretend you are teaching a 4th grader about computers. Write a short piece explaining to them what happens when you type a URL into a browser and a page appears on your screen.
+
+In your piece, make sure to include explanations of the following concepts:
+
+server
+packet
+routing / routers
+HTML
+
+Feel free to get creative! Make up a story, use analogies, or do whatever you think would work best given this imaginary scenario!
+
+There is no length requirement. A good explanation will probably require between 150 and 300 words.
+
+The simplest way I can begin to describe the internet is to tell you that it is just different computers communicating with each other. Let's break it down piece by piece. You access your computer and you want to go on Google to search "How to download Fortnite." Well first you you typically would type in the domain name "http://google.com" into your browser. The browser will then send this request to a DNS server. The DNS server will then translate the domain name (google.com) into an IP address. The IP address is the actual address of the server that you are trying to access. IP addresses are 4 numbers put together that give each site a unique location or address. This is just like your home address, it is unique to all others! After recieving the IP address The browser will then send a request to the server that you are trying to access. The server will then send back a response to the browser. The server sends this response in little chunks called packets in order to make it easier to send. Think of this like a colony of ants marching from food to their home. They can't take the food all at once so they take it in little chunks. These ants also like to take the most efficient path to get back to colony, but they don't always take the same route! Some ants will bring a packet from one direction and others will bring it from another. This is kind of how routers work. Some data will be prestored on different routers and sent from different locations to be more efficient to reach the computer requesting the data. The browser then takes all of these packets and puts them together to form the website that you are trying to access. The browser then reads the HTML (Hyper Text Markup Language) code and displays the website to you. And that is how the internet works!
+*/
